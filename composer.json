@@ -1,0 +1,19 @@
+{
+  "name": "magentoese/module-temando-uninstall",
+  "description": "",
+  "require": {
+    "php": "~7.1.0|~7.2.0|~7.3.0"
+  },
+  "type": "magento2-module",
+  "license": [
+    "BSD-3-Clause"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MagentoEse\\TemandoUninstall\\": ""
+    }
+  }
+}
